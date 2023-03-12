@@ -65,22 +65,22 @@ export default function FAQs() {
         <AccordionBody className='text-start'>
 
           {/* FAQ Sub section */}
-          <div className={open==2?'md:pr-4':'hidden'}>
+          <p className={open==2?'md:pr-4':'h-0 hidden'}>
 
-            <h1 className='text-gray-100 text[20px] '>What is the supply of the project?</h1>
-            <h1 className='text-gray-300 px-2 mt-1'>4,444  NFTs</h1>
+            <span className='text-gray-100 text-[20px]'>What is the supply of the project?</span>
+            <span className='text-gray-300 pt-1'>4,444  NFTs</span>
 
-            <h1 className='text-gray-100 text[20px] mt-2'>What is the mint price?</h1>
-            <h1 className='text-gray-300 px-2 mt-1'>TBD</h1>
+            <span className='text-gray-100 text-[20px] pt-4'>What is the mint price?</span>
+            <span className='text-gray-300 pt-1'>TBD</span>
 
-            <h1 className='text-gray-100 text[20px] mt-2'>When will the mint take place?</h1>
-            <h1 className='text-gray-300 px-2 mt-1'>March 2023</h1>
+            <span className='text-gray-100 text-[20px] pt-4'>When will the mint take place?</span>
+            <span className='text-gray-300 pt-1'>March 2023</span>
 
-            <h1 className='text-gray-100 text[20px] mt-2'>Why choose Ethereum?</h1>
-            <h1 className='text-gray-300 px-2 mt-1'>
+            <span className='text-gray-100 text-[20px] pt-4'>Why choose Ethereum?</span>
+            <span className='text-gray-300 pt-1'>
               Its smart contracts enable fast and secure in-game transactions. The network's decentralizedstructure ensures fairness and transparency in gameplay. Ethereum's open-source platformallows for easy development of new games. Thus,  the ability to use Ethereum's nativecryptocurrency, ether, allows for easy, borderless payments.
-            </h1>
-          </div> 
+            </span>
+          </p> 
         </AccordionBody>
       </Accordion>
  
