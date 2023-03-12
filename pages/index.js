@@ -18,9 +18,9 @@ const ArrowClickedHnadler= () => {
   return (
     <>
       <Head>
-        <title>Skelee-Mini-web01</title>
-        <meta name="Description" content="skelee-mini-web" />
-        <link rel="icon" href="/Logoicon.png" />
+        <title>Galactaverse-demo</title>
+        <meta name="Description" content="DEMO" />
+        <link rel="icon" href="/galactaverse-favicon.png" />
       </Head>
       
         <div className="h-screen w-screen bg-bg1 fixed top-0 -z-10 bg-cover bg-no-repeat bg-center">
