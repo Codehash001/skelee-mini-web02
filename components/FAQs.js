@@ -23,7 +23,7 @@ export default function FAQs() {
   <div className='w-screen h-auto md:mb-0 font-Kanit'>
     <div id='faqs'className='md:px-16 px-4 py-4 bg-black/30 filter backdrop-blur-sm text-white'>
       <Accordion open={open === 1} animate={customAnimation}>
-        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white text-[21px]'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>Background</h1>
             <div>{open == 1 ?
@@ -48,7 +48,7 @@ export default function FAQs() {
 
       
       <Accordion open={open === 2 || 4} animate={customAnimation}>
-        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white text-[21px]'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>FAQ</h1>
             <div>{open == 2 ?
@@ -62,40 +62,32 @@ export default function FAQs() {
              }</div>
           </div>
         </AccordionHeader>
-        <AccordionBody className='text-justify'>
+        <AccordionBody className='text-start'>
 
-          {/* FAQ Sub Accordian */}
+          {/* FAQ Sub section */}
+          <div className={open==2?'md:pr-4':'hidden'}>
 
-          <Accordion open={open === 4} animate={customAnimation}>
-        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
-          <div className="w-full flex justify-between">
-            <h1 className='uppercase'>Question</h1>
-            <div>{open == 4 ?
-            (
-              <svg onClick={() => handleOpen(4)}  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M5 11h14v2H5z"></path></svg>
-            ):
-            (
-            <Link onClick={() => handleOpen(4)}  activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-white"><path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path></svg>
-            </Link>
-            )
-             }</div>
-          </div>
-        </AccordionHeader>
-        <AccordionBody className='text-justify'>
-         <p className={open==1? 'md:pr-4' : 'h-0 hidden'}>
-          Answer
-         </p>
+            <h1 className='text-gray-100 text[20px] mt-2'>What is the supply of the project?</h1>
+            <h1 className='text-gray-200 pr:2 mt-1'>4,444  NFTs</h1>
+
+            <h1 className='text-gray-100 text[20px] mt-2'>What is the mint price?</h1>
+            <h1 className='text-gray-200 pr:2 mt-1'>TBD</h1>
+
+            <h1 className='text-gray-100 text[20px] mt-2'>When will the mint take place?</h1>
+            <h1 className='text-gray-200 pr:2 mt-1'>March 2023</h1>
+
+            <h1 className='text-gray-100 text[20px] mt-2'>Why choose Ethereum?</h1>
+            <h1 className='text-gray-200 pr:2 mt-1'>
+              Its smart contracts enable fast and secure in-game transactions. The network's decentralizedstructure ensures fairness and transparency in gameplay. Ethereum's open-source platformallows for easy development of new games. Thus,  the ability to use Ethereum's nativecryptocurrency, ether, allows for easy, borderless payments.
+            </h1>
+          </div> 
         </AccordionBody>
       </Accordion>
-         
-        </AccordionBody>
-      </Accordion>
-
+ 
 
       
       <Accordion open={open === 3} animate={customAnimation}>
-        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white'>
+        <AccordionHeader className='w-full flex flex-col items-start text-start mx-[-10px] border-b border-white text-[21px]'>
           <div className="w-full flex justify-between">
             <h1 className='uppercase'>Team</h1>
             <div>{open == 3 ?
