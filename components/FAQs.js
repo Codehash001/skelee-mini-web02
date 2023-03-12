@@ -67,17 +67,17 @@ export default function FAQs() {
           {/* FAQ Sub section */}
           <p className={open==2?'md:pr-4':'h-0 hidden'}>
 
-            <span className='text-gray-100 text-[20px]'>What is the supply of the project?</span>
-            <span className='text-gray-300 pt-1'>4,444  NFTs</span>
+            <span className='text-gray-100 text-[20px]'>What is the supply of the project?</span><br/>
+            <span className='text-gray-300'>4,444  NFTs</span><br/><br/>
 
-            <span className='text-gray-100 text-[20px] pt-4'>What is the mint price?</span>
-            <span className='text-gray-300 pt-1'>TBD</span>
+            <span className='text-gray-100 text-[20px]'>What is the mint price?</span><br/>
+            <span className='text-gray-300'>TBD</span><br/><br/>
 
-            <span className='text-gray-100 text-[20px] pt-4'>When will the mint take place?</span>
-            <span className='text-gray-300 pt-1'>March 2023</span>
+            <span className='text-gray-100 text-[20px]'>When will the mint take place?</span><br/>
+            <span className='text-gray-300 '>March 2023</span><br/><br/>
 
-            <span className='text-gray-100 text-[20px] pt-4'>Why choose Ethereum?</span>
-            <span className='text-gray-300 pt-1'>
+            <span className='text-gray-100 text-[20px]'>Why choose Ethereum?</span><br/>
+            <span className='text-gray-300'>
               Its smart contracts enable fast and secure in-game transactions. The network's decentralizedstructure ensures fairness and transparency in gameplay. Ethereum's open-source platformallows for easy development of new games. Thus,  the ability to use Ethereum's nativecryptocurrency, ether, allows for easy, borderless payments.
             </span>
           </p> 
@@ -101,7 +101,7 @@ export default function FAQs() {
              }</div>
           </div>
         </AccordionHeader>
-        <AccordionBody className='flex flex-col md:items-start items-center'>
+        <AccordionBody className='flex flex-col items-start'>
          {/* <div className={open == 3 ? "md:flex items-start justify-start transition duration-300 ease-in-out" : 'h-0 hidden transition duration-300 ease-in-out'}>
 
           <div className=" flex flex-col items-start w-full h-full p-4 bg-gray-800">
