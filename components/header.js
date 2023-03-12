@@ -9,7 +9,7 @@ function header() {
         </h1>
       </div>
 
-      <div className="hidden md:flex">
+      <div className="hidden">
         <div className="flex flex-row items-center">
           <a
             target="_blank"
