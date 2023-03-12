@@ -4,7 +4,7 @@ function header() {
   return (
     <div className="flex flex-row justify-center items-center md:px-16 px-6 py-6 text-white">
       <div className="text-center flex flex-col md:items-start items-center font-Robodron w-full">
-        <h1 className="text-xl font-semibold uppercase md:text-start text-center">
+        <h1 className="text-3xl font-semibold uppercase text-center">
           galactaverse
         </h1>
       </div>
