@@ -39,7 +39,9 @@ export default function FAQs() {
           </div>
         </AccordionHeader>
         <AccordionBody className='text-justify'>
-         des
+         <p>
+         Galactaverse is a thrilling web3 space racing game that takes players on a journey through thevast and beautiful expanse of the galaxy. As players progress through the game, they unlocknew upgrades, giving them the tools they need to push the limits of speed and endurance. Inthis futuristic world, players become skilled pilots who compete in high-speed races throughtreacherous environments. With stunning visuals, immersive soundscapes, and engagingstorylines, Galactaverse evolves. The game celebrates exploration, discovery, and adventure asplayers race toward becoming the champion of the Galactaverse. Experience an unforgettablegaming experience, perfect for anyone who loves space and racing games and web3!
+         </p>
         </AccordionBody>
       </Accordion>
 

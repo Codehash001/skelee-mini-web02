@@ -23,7 +23,7 @@ const ArrowClickedHnadler= () => {
         <link rel="icon" href="/galactaverse-favicon.png" />
       </Head>
       
-        <div className="h-screen w-screen bg-bg1 fixed top-0 -z-10 bg-cover bg-no-repeat bg-center">
+        <div className="h-screen w-screen bg-bg2 md:bg-bg1 fixed top-0 -z-10 bg-cover bg-no-repeat bg-center">
 
         </div>
         {/* <img
