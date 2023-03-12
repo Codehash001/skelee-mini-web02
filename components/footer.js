@@ -6,7 +6,7 @@ export default function Footer(){
 	<div className='flex items-center jutify-between w-full h-auto'>
 		<div className='flex flex-col items-start jutify-between w-full h-auto'>
 		  
-		    <img src='/galactaverse-logo.png' className='h-[40px] w-auto'/>
+		    <img src='/galactaverse-logo.png' className='h-[10px] w-auto'/>
 		    <h1 className='text-lg font-semibold tracking-widest'>RARE STUDIOS NEW YORK</h1>
 		    <h1 className='text-[10px]'>&#169;2023 RARE STUDIOS NEW YORK.All Rights Reserved.</h1>
 		  
