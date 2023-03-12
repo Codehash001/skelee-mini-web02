@@ -2,7 +2,7 @@ import React from "react";
 
 function header() {
   return (
-    <div className="flex flex-row justify-center items-center md:px-16 px-6 py-8 text-white">
+    <div className="flex flex-row justify-center items-center md:px-16 px-6 py-8 text-white" id ='head'>
       <div className="text-center flex flex-col items-center font-Robodron w-full">
         <h1 className="text-xl font-semibold uppercase text-center">
           galactaverse
