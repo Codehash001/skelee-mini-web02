@@ -14,7 +14,7 @@
 
 @font-face {
   font-family:'Robodron';
-  src: url('./fonts/robodron-regular.ttf');
+  src: url('/fonts/robodron-regular.ttf');
 }
 
 body{
