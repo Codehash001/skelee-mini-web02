@@ -31,7 +31,9 @@ module.exports = {
       },
       backgroundImage:
         {
-          'bg1' : 'url("https://s2.gifyu.com/images/rarestudiosnewyork-sitebg.png")'
+          'bg1' : 'url("https://s2.gifyu.com/images/skelee-homepage-button.png")'
+          'bg2' : 'url("https://s2.gifyu.com/images/rarestudiosnewyork-sitebg.png")'
+          
         }
 
     }

@@ -17,7 +17,7 @@ const ArrowClickedHnadler= () => {
   return (
     <>
       <Head>
-        <title>Skelee-Mini-web01</title>
+        <title>Skelee-Mini-web02-demo</title>
         <meta name="Description" content="skelee-mini-web" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
@@ -31,7 +31,7 @@ const ArrowClickedHnadler= () => {
         /> */}
         <div className="relative h-screen w-screen flex flex-col">
         <div className="absolute md:bottom-[20px] bottom-16 flex flex-col items-center w-screen">
-        <div className="md:hidden flex flex-row justify-center w-full mt-2"> 
+        <div className="flex flex-row justify-center w-full mt-2"> 
           <a
             target="_blank"
             rel="noreferrer"
