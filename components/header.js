@@ -3,7 +3,7 @@ import React from "react";
 function header() {
   return (
     <div className="flex flex-row md:justify-between justify-center items-center md:px-16 px-6 py-6 text-white">
-      <div className="md:text-start text-center flex flex-col md:items-start items-center font-Kanit w-full">
+      <div className="md:text-start text-center flex flex-col md:items-start items-center font-Robodron w-full">
         <h1 className="text-xl font-semibold uppercase md:text-start text-center">
           rare studios new york
         </h1>

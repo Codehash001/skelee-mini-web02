@@ -12,6 +12,11 @@
   }
 }
 
+@font-face {
+  font-family:'Robodron';
+  src: url('./fonts/robodron-regular.ttf');
+}
+
 body{
   overflow-x: hidden;
 }
