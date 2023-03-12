@@ -14,10 +14,11 @@ const [ArrowClicked , setArrowClicked ] = useState(false)
 const ArrowClickedHnadler= () => {
     setArrowClicked(!ArrowClicked);
   };
+
   return (
     <>
       <Head>
-        <title>Skelee-Mini-web02-demo</title>
+        <title>Skelee-Mini-web01</title>
         <meta name="Description" content="skelee-mini-web" />
         <link rel="icon" href="/Logoicon.png" />
       </Head>
@@ -57,27 +58,18 @@ const ArrowClickedHnadler= () => {
             href="https://twitter.com/skeleenft"
           >
             <div className="px-10 py-1  bg-white rounded-md uppercase mx-2 cursor-pointer">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="hover:scale-110"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="#00000"
-              >
-                <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
-              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#00000"><path d="M14.82 4.26a10.14 10.14 0 0 0-.53 1.1 14.66 14.66 0 0 0-4.58 0 10.14 10.14 0 0 0-.53-1.1 16 16 0 0 0-4.13 1.3 17.33 17.33 0 0 0-3 11.59 16.6 16.6 0 0 0 5.07 2.59A12.89 12.89 0 0 0 8.23 18a9.65 9.65 0 0 1-1.71-.83 3.39 3.39 0 0 0 .42-.33 11.66 11.66 0 0 0 10.12 0q.21.18.42.33a10.84 10.84 0 0 1-1.71.84 12.41 12.41 0 0 0 1.08 1.78 16.44 16.44 0 0 0 5.06-2.59 17.22 17.22 0 0 0-3-11.59 16.09 16.09 0 0 0-4.09-1.35zM8.68 14.81a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.93 1.93 0 0 1 1.8 2 1.93 1.93 0 0 1-1.8 2zm6.64 0a1.94 1.94 0 0 1-1.8-2 1.93 1.93 0 0 1 1.8-2 1.92 1.92 0 0 1 1.8 2 1.92 1.92 0 0 1-1.8 2z"></path></svg>
             </div>
           </a>
         </div>
 
-        <Link className={ArrowClicked? "hidden ":"cursor-pointer mt-4" } activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
-        <svg onClick={ArrowClickedHnadler} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
+        <Link className="cursor-pointer mt-4" activeClass ="active" to={ArrowClicked?'head':'footer'} spy={true} smooth={true} offset={-70} duration={600}>
+        <svg onClick={ArrowClickedHnadler} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className={ArrowClicked?"rotate-180 fill-white":"fill-white animate-bounce"}><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
         </Link>
         
-        <Link className={ArrowClicked ? "cursor-pointer mt-4" : 'hidden'} activeClass ="active" to='footer' spy={true} smooth={true} offset={-70} duration={600}>
+        {/* <Link className={ArrowClicked ? "cursor-pointer mt-4" : 'hidden'} activeClass ="active" to='head' spy={true} smooth={true} offset={-70} duration={600}>
         <svg onClick={ArrowClickedHnadler} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className="fill-white animate-bounce rotate-90"><path d="m18.707 12.707-1.414-1.414L13 15.586V6h-2v9.586l-4.293-4.293-1.414 1.414L12 19.414z"></path></svg>
-        </Link>
+        </Link> */}
         
         </div>
 
