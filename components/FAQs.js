@@ -126,7 +126,7 @@ export default function FAQs() {
           </div>
 
          </div> */}
-         <p className={open==1? 'md:pr-4' : 'h-0 hidden'}>
+         <p className={open==3? 'md:pr-4' : 'h-0 hidden'}>
           Rarestudios New York
          </p>
         </AccordionBody>
