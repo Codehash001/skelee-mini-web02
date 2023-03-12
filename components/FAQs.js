@@ -68,16 +68,16 @@ export default function FAQs() {
           <div className={open==2?'md:pr-4':'hidden'}>
 
             <h1 className='text-gray-100 text[20px] '>What is the supply of the project?</h1>
-            <h1 className='text-gray-300 pr-2 mt-1'>4,444  NFTs</h1>
+            <h1 className='text-gray-300 px-2 mt-1'>4,444  NFTs</h1>
 
             <h1 className='text-gray-100 text[20px] mt-2'>What is the mint price?</h1>
-            <h1 className='text-gray-300 pr-2 mt-1'>TBD</h1>
+            <h1 className='text-gray-300 px-2 mt-1'>TBD</h1>
 
             <h1 className='text-gray-100 text[20px] mt-2'>When will the mint take place?</h1>
-            <h1 className='text-gray-300 pr-2 mt-1'>March 2023</h1>
+            <h1 className='text-gray-300 px-2 mt-1'>March 2023</h1>
 
             <h1 className='text-gray-100 text[20px] mt-2'>Why choose Ethereum?</h1>
-            <h1 className='text-gray-300 pr-2 mt-1'>
+            <h1 className='text-gray-300 px-2 mt-1'>
               Its smart contracts enable fast and secure in-game transactions. The network's decentralizedstructure ensures fairness and transparency in gameplay. Ethereum's open-source platformallows for easy development of new games. Thus,  the ability to use Ethereum's nativecryptocurrency, ether, allows for easy, borderless payments.
             </h1>
           </div> 
