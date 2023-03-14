@@ -3,8 +3,9 @@ import React from "react";
 function header() {
   return (
     <div className="flex flex-row justify-center items-center md:px-16 px-6 py-8 text-white" id ='head'>
-      <div className="text-center flex flex-col items-center font-Robodron w-full">
+      <div className="text-center flex flex-col items-center font-Kanit w-full">
         <img src='/galactaverse-logo.png' className='h-[15px] w-auto'/>
+        <h1 className="text-[18px]">A web3 Space Racing Experience</h1>
       </div>
 
       <div className="hidden">
