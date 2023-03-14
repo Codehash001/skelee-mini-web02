@@ -5,7 +5,7 @@ function header() {
     <div className="flex flex-row justify-center items-center md:px-16 px-6 py-8 text-white" id ='head'>
       <div className="text-center flex flex-col items-center font-Kanit w-full">
         <img src='/galactaverse-logo.png' className='h-[15px] w-auto'/>
-        <h1 className="text-sm md:text-[18px] mt-2">A web3 Space Racing Experience</h1>
+        <h1 className="text-sm md:text-[18px] mt-3">A web3 Space Racing Experience</h1>
       </div>
 
       <div className="hidden">
